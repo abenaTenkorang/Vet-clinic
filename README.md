@@ -21,7 +21,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -139,11 +138,7 @@ If you like this project please give me a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [MIcroverse](https://github.com/microverseinc)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
+I would like to thank [Microverse](https://github.com/microverseinc)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
