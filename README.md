@@ -100,7 +100,8 @@ Example commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> N/A
+> Reduce Space and Time Complexity
+> Normalize the database upto some other levels
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
