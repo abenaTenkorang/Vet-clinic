@@ -29,15 +29,11 @@ VALUES
     ('Digimon');
 
 -- Update the animals table to include species and owner information
-UPDATE animals SET 
-    species_id = CASE 
-                    WHEN name LIKE '%mon' THEN 2 
-                    ELSE 1 
-                 END,
-    owner_id = CASE 
-                    WHEN name = 'Agumon' THEN 1 
-                    WHEN name IN ('Gabumon', 'Pikachu') THEN 2 
-                    WHEN name IN ('Devimon', 'Plantmon') THEN 3 
-                    WHEN name IN ('Charmander', 'Squirtle', 'Blossom') THEN 4 
-                    WHEN name IN ('Angemon', 'Boarmon') THEN 5 
-                 END;
+update animals set species_id = 2 where name like '%mon';
+update animals set species_id = 1 where name not like '%mon';
+
+update animals set owners_id = 1 where name like 'Agumon';
+update animals set owners_id = 2 where name in ('Gabumon', 'Pikachu');
+update animals set owners_id = 3 where name in ('Davimon', 'Plantmon');
+update animals set owners_id = 4 where name in ('Chamandar', 'Squirtle','Blossom');
+update animals set owners_id = 5 where name in ('Angemon', 'Boarmon');
