@@ -9,5 +9,31 @@ INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_k
 INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES (7, 'Squirtle', '04/02/93', 3, false, -12.13);
 INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES (8, 'Angemon', '06/12/05', 1, true, -45);
 INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES (9, 'Boarmon', '06/07/05', 7, true, 20.4);
-INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES (10, 'Blossom', '10/13/98', 3, true, 17);
+INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES (10, 'Blossom', '10/13/98', 3, true, 17);\
 INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES (11, 'Ditto', '05/14/22', 4, true, 22);
+
+-- Insert data into the owners table
+INSERT INTO owners (full_name, age)
+VALUES 
+    ('Sam Smith', 34),
+    ('Jennifer Orwell', 19),
+    ('Bob', 45),
+    ('Melody Pond', 77),
+    ('Dean Winchester', 14),
+    ('Jodie Whittaker', 38);
+
+-- Insert data into the species table
+INSERT INTO species (name)
+VALUES 
+    ('Pokemon'),
+    ('Digimon');
+
+-- Update the animals table to include species and owner information
+update animals set species_id = 2 where name like '%mon';
+update animals set species_id = 1 where name not like '%mon';
+
+update animals set owners_id = 1 where name like 'Agumon';
+update animals set owners_id = 2 where name in ('Gabumon', 'Pikachu');
+update animals set owners_id = 3 where name in ('Davimon', 'Plantmon');
+update animals set owners_id = 4 where name in ('Chamandar', 'Squirtle','Blossom');
+update animals set owners_id = 5 where name in ('Angemon', 'Boarmon');
