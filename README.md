@@ -12,9 +12,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -43,9 +40,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Created a database based on a diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,42 +50,39 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-
 In order to run this project you need:
 
-<!--
-Example command:
+Install Postgres SQL
 
-```sh
- gem install PostgreSQL
-```
- -->
+[Postgress SQL download](https://www.postgresql.org/download/)
 
 ### Setup
 
+Setup
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+  - git clone https://github.com/abenaTenkorang/vet-clinic-db
+  - cd vet-clinic 
+  
+ ### Usage
+To run the project, execute the following command:
 
-```sh
-  git clone git@github.com:abenaTenkorang/Vet-clinic.git
-  cd Vet-clinic
-```
---->
+Usage
+To run the project, execute the following command:
 
+  - psql -u postgres
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/abenaTenkorang)
-- Twitter: [@twitterhandle](https://twitter.com/Abi1_boateng)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abigail-gyamfuaa-boateng/)
+- GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
+- Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
+- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-gyamfuaa-boateng/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -100,7 +91,10 @@ Example commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> N/A
+- Add join table for visits
+- Database performance edit
+- Add database schema diagram
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
