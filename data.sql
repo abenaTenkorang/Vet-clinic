@@ -37,3 +37,34 @@ update animals set owners_id = 2 where name in ('Gabumon', 'Pikachu');
 update animals set owners_id = 3 where name in ('Davimon', 'Plantmon');
 update animals set owners_id = 4 where name in ('Chamandar', 'Squirtle','Blossom');
 update animals set owners_id = 5 where name in ('Angemon', 'Boarmon');
+
+
+-- Add "join table" for visits
+
+-- Insert data to vets table
+insert into vet (name, age,date_of_graduation)
+values 
+  ('William Tatcher', 45, '2000-04-23'),
+  ('Maisy Smith', 26, '2019-01-17'),
+  ('Stephanie Mendez', 64, '1981-05-04'),
+  ('Jack Harkness', 38, '2008-06-08');
+
+   -- insert data to specialties
+  insert into specialties(vet_id, species_id) 
+  values
+    (
+      (select id from vet where name like 'William Tatcher'),
+      (select id from species where name = 'Pokemon')
+    ),
+    (
+      (select id from vet where name like 'Stephanie Mendez'),
+      (select id from species where name = 'Digimon')
+    ),
+    (
+      (select id from vet where name like 'Stephanie Mendez'),
+      (select id from species where name = 'Pokemon')
+    ),
+    (
+      (select id from vet where name like 'Jack Harkness'),
+      (select id from species where name = 'Digimon')
+    );
