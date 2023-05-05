@@ -43,6 +43,8 @@
 
 ### Key Features <a name="key-features"></a>
 
+> Describe between 1-3 key features of the application.
+
 - **[Created a database based on a diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,8 +100,7 @@ Example commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Reduce Space and Time Complexity
-> Normalize the database upto some other levels
+> N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
