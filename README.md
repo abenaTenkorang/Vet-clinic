@@ -43,9 +43,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Created a database based on a diagram]**
+- Animals table that consists of details of each animals eg. Name, DoB, etc.
+- Queries to list all animals whose names ends with 'mon'
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
