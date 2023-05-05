@@ -84,7 +84,7 @@ To run the project, execute the following command:
 
 - GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
 - Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
-- LinkedIn: [Abigail Boaten](https://www.linkedin.com/in/abigail-gyamfuaa-boateng/)
+- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-gyamfuaa-boateng/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
