@@ -40,8 +40,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Animals table that consists of details of each animals eg. Name, DoB, etc.
-- Queries to list all animals whose names ends with 'mon'
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
