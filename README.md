@@ -39,7 +39,8 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
+-  Many-to-many relationship between the tables
+- Complex queries that answer analytical questions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
