@@ -53,24 +53,24 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 Install Postgres SQL
-
+```sh
 [Postgress SQL download](https://www.postgresql.org/download/)
-
+```
 ### Setup
 
 Setup
 Clone this repository to your desired folder:
+```sh
+  git clone https://github.com/abenaTenkorang/vet-clinic-db
+  cd vet-clinic  
+```
 
-  - git clone https://github.com/abenaTenkorang/vet-clinic-db
-  - cd vet-clinic 
-  
  ### Usage
 To run the project, execute the following command:
 
-Usage
-To run the project, execute the following command:
-
-  - psql -u postgres
+```sh
+   psql -u postgres
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
