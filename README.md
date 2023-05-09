@@ -25,6 +25,11 @@
 
 > Vet Clinic Database is relational database creates initial data structure for a vet clinic. It also has a table that store animals' information, insert some data into it, and query it.
 
+## Schema diagram
+
+![image](https://github.com/abenaTenkorang/Vet-clinic/assets/109290913/5ba3003c-54f7-408d-9883-339ac4f0f386)
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
