@@ -67,8 +67,8 @@ Install Postgres SQL
 Setup
 Clone this repository to your desired folder:
 ```sh
-  git clone https://github.com/abenaTenkorang/vet-clinic-db
-  cd vet-clinic  
+  git clone https://github.com/abenaTenkorang/Vet-clinic
+  cd Vet-clinic  
 ```
 
  ### Usage
